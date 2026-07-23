@@ -1,10 +1,6 @@
 # Beyond the Unpredictable Loop
 ### Building Production-Grade Agentic Workflows with LangGraph + smolagents + A2A
 
-> Companion repo for the FOSS meetup talk by **Sreejith Surendran** & **Ajmal Nizamudin**
->
-> Audience: mixed — students to working professionals. Everything runs free in Google Colab.
-
 ---
 
 ## The Problem This Demo Solves
