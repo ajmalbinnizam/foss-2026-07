@@ -71,11 +71,11 @@ os.environ["GITHUB_TOKEN"] = getpass.getpass("GitHub token (optional): ")
 
 Work through these in order — each builds on the last, then lands in the FOSS Matchmaker demo.
 
-| # | Notebook | Covers in one line | Time |
-|---|----------|---------------------|------|
-| 1 | `01_smolagents_basics.ipynb` | `CodeAgent` vs `ToolCallingAgent`, the `@tool` decorator | ~30 min |
-| 2 | `02_langgraph_basics.ipynb` | `StateGraph`, conditional routing, human-in-the-loop gates | ~30 min |
-| 3 | `03_a2a_basics.ipynb` | A2A protocol + the 3 specialist agents, defined standalone (no LangGraph wiring yet) | ~30 min |
+| # | Notebook | Covers in one line | Time | Open in Colab |
+|---|----------|---------------------|------|---------------|
+| 1 | `01_smolagents_basics.ipynb` | `CodeAgent` vs `ToolCallingAgent`, the `@tool` decorator | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajmalbinnizam/foss-2026-07/blob/main/study_notebooks/01_smolagents_basics.ipynb) |
+| 2 | `02_langgraph_basics.ipynb` | `StateGraph`, conditional routing, human-in-the-loop gates | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajmalbinnizam/foss-2026-07/blob/main/study_notebooks/02_langgraph_basics.ipynb) |
+| 3 | `03_a2a_basics.ipynb` | A2A protocol + the 3 specialist agents, defined standalone (no LangGraph wiring yet) | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajmalbinnizam/foss-2026-07/blob/main/study_notebooks/03_a2a_basics.ipynb) |
 
 ---
 
