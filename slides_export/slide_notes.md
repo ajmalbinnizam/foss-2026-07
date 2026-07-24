@@ -155,13 +155,13 @@ Manager Agent (smolagents CodeAgent) delegates to 3 specialists
         ↓
   1. Ingestion Agent        → extracts title, cost, color, dial type
   2. Market Research Agent  → searches the web, computes margin %
-  3. Copywriter Agent       → writes storefront + broadcast copy
+  3. Copywriter Agent       → writes storefront + broadcast social
         ↓
 LangGraph Guardrail Node — checks: is margin > 20%?
         │
-        ├─ margin ≤ 20%  → auto-approved, no pause
+        ├─ margin > 20%  → auto-approved, no pause
         │
-        └─ margin > 20%  → PAUSE (interrupt()) → Telegram approval request
+        └─ margin <= 20%  → PAUSE (interrupt()) → Telegram approval request
                                     ↓
                        Human taps [Approve] live on stage
                                     ↓
