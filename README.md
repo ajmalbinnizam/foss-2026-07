@@ -89,7 +89,7 @@ Work through these in order. Each builds on the last.
 |---|----------|----------------|------|---------------|
 | 1 | `01_smolagents_basics.ipynb` | CodeAgent, @tool, ToolCallingAgent vs CodeAgent | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/foss_7_2026/blob/main/notebooks/01_smolagents_basics.ipynb) |
 | 2 | `02_langgraph_basics.ipynb` | State graphs, conditional routing, human gates | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/foss_7_2026/blob/main/notebooks/02_langgraph_basics.ipynb) |
-| 3 | `03_a2a_and_hybrid.ipynb` | A2A protocol, specialist agents, full Matchmaker pipeline | ~45 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/foss_7_2026/blob/main/notebooks/03_a2a_and_hybrid.ipynb) |
+| 3 | `03_a2a_basics.ipynb` | A2A protocol, the 3 specialist agents (standalone) | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/foss_7_2026/blob/main/notebooks/03_a2a_basics.ipynb) |
 | Demo | `foss_demo.ipynb` | Live: FOSS Contribution Matchmaker | ~20 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/foss_7_2026/blob/main/notebooks/foss_demo.ipynb) |
 
 > Replace `YOUR_USERNAME` with your GitHub username after pushing this repo.
@@ -183,6 +183,6 @@ foss_7_2026/
 └── notebooks/
     ├── 01_smolagents_basics.ipynb       ← study: smolagents fundamentals
     ├── 02_langgraph_basics.ipynb        ← study: LangGraph fundamentals
-    ├── 03_a2a_and_hybrid.ipynb          ← study: A2A protocol + full pipeline
-    └── foss_demo.ipynb                  ← live audience demo
+    ├── 03_a2a_basics.ipynb          ← study: A2A protocol + the 3 specialist agents
+    └── foss_demo.ipynb                  ← live audience demo: full LangGraph + A2A + smolagents pipeline
 ```

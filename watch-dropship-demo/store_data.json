@@ -1,0 +1,18 @@
+[
+  {
+    "id": "w1",
+    "title": "Minimalist Rose Gold Chronograph",
+    "price": 89.00,
+    "image": "https://placehold.co/400x400/1a1a1a/d4af37?text=Rose+Gold+Chrono",
+    "description": "Sleek stainless steel case with genuine leather strap.",
+    "status": "published"
+  },
+  {
+    "id": "w2",
+    "title": "Tactical Diver Automatic 200M",
+    "price": 149.00,
+    "image": "https://placehold.co/400x400/1a1a1a/4a90d9?text=Tactical+Diver",
+    "description": "Sapphire crystal face with luminous dial markers.",
+    "status": "published"
+  }
+]

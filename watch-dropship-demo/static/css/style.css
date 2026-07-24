@@ -1,0 +1,113 @@
+:root {
+  --bg: #0b0b0d;
+  --panel: rgba(255, 255, 255, 0.05);
+  --panel-border: rgba(255, 255, 255, 0.1);
+  --gold: #d4af37;
+  --text: #f2f2f2;
+  --muted: #9a9a9a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #16161a, var(--bg) 60%);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+.topbar {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.topbar h1 {
+  margin: 0;
+  letter-spacing: 0.3em;
+  font-size: 2rem;
+  color: var(--gold);
+}
+
+.tagline {
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 0 2rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 1.25rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+}
+
+.card--new {
+  border-color: var(--gold);
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.25);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.description {
+  color: var(--muted);
+  font-size: 0.9rem;
+  min-height: 2.5rem;
+}
+
+.price {
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.badge {
+  position: absolute;
+  top: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge--new {
+  left: 0.75rem;
+  background: var(--gold);
+  color: #1a1a1a;
+}
+
+.badge--stock {
+  right: 0.75rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--text);
+}
