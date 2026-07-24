@@ -31,9 +31,7 @@ def load_key(name: str):
             return
     except ImportError:
         pass
-    import getpass
 
-    os.environ[name] = getpass.getpass(f"{name}: ")
 
 
 def build_manager_agent() -> CodeAgent:
